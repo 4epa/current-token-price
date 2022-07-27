@@ -1,0 +1,33 @@
+.coin_continer {
+  display: grid;
+  padding: 20px;
+  box-shadow: 1px 1px 10px rgba(127, 110, 167, 0.556);
+  max-width: 1000px;
+  border-radius: 15px;
+  margin: 20px auto;
+}
+.coin_continer > *:not(:last-child) {
+  margin-bottom: 20px;
+}
+.time_bar {
+  display: flex;
+}
+.title {
+  color: #d19fff;
+  font-size: 35px;
+  font-weight: 700;
+}
+.price {
+  font-size: 25px;
+  font-weight: 700;
+  color: #444;
+  margin-bottom: 15px;
+}
+.description {
+  font-size: 14px;
+  color: #888;
+}
+.time_bar {
+  font-size: 14px;
+  color: #555;
+}
